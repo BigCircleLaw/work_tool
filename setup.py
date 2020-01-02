@@ -12,7 +12,7 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'wonderbits'
+NAME = 'work_tool'
 DESCRIPTION = 'work toolfiles by Big Circle.'
 URL = 'https://github.com/BigCircleLaw'
 EMAIL = '794557226@qq.com'
@@ -24,8 +24,8 @@ VERSION = None
 REQUIRED = [
     'pyserial',
     'Click',
-    'wonderbits-ampy>=1.1.1',
-    'esptool'
+    # 'wonderbits-ampy>=1.1.1',
+    # 'esptool'
 ]
 
 # What packages are optional?
@@ -110,9 +110,9 @@ setup(
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['wonderbits'],
 
-    entry_points={
-        'console_scripts': ['wonderbits=wonderbits:cli'],
-    },
+    # entry_points={
+    #     'console_scripts': ['work_tool=work_tool:cli'],
+    # },
     install_requires=REQUIRED,
     extras_require=EXTRAS,
     include_package_data=True,
