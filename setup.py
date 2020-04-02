@@ -24,7 +24,7 @@ VERSION = None
 REQUIRED = [
     'pyserial',
     'Click',
-    # 'wonderbits-ampy>=1.1.1',
+    'paramiko',
     # 'esptool'
 ]
 
